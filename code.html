@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>L'ESSENCE CULINAIRE | Experience the Craft</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Noto+Serif:ital,wght@0,300;0,600;1,400&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-background": "#231a13",
+                      "background": "#fff8f5",
+                      "on-secondary-container": "#785f28",
+                      "on-tertiary-fixed-variant": "#544339",
+                      "outline": "#8a7269",
+                      "on-tertiary-fixed": "#261910",
+                      "on-error-container": "#93000a",
+                      "on-error": "#ffffff",
+                      "on-secondary-fixed": "#261900",
+                      "on-surface-variant": "#56423a",
+                      "surface-container": "#fdeadf",
+                      "on-primary-fixed": "#360f00",
+                      "surface-container-highest": "#f1dfd4",
+                      "primary-fixed": "#ffdbcd",
+                      "error-container": "#ffdad6",
+                      "on-tertiary": "#ffffff",
+                      "secondary-fixed": "#ffdea0",
+                      "error": "#ba1a1a",
+                      "on-primary": "#ffffff",
+                      "on-tertiary-container": "#fffbff",
+                      "outline-variant": "#ddc0b6",
+                      "surface-container-high": "#f7e5d9",
+                      "secondary": "#735b25",
+                      "surface": "#fff8f5",
+                      "on-surface": "#231a13",
+                      "inverse-on-surface": "#ffede3",
+                      "surface-container-low": "#fff1e9",
+                      "secondary-container": "#fedb98",
+                      "tertiary": "#6b584d",
+                      "inverse-primary": "#ffb597",
+                      "tertiary-fixed": "#f7decf",
+                      "primary": "#9d3e0d",
+                      "surface-tint": "#a04110",
+                      "primary-container": "#bd5625",
+                      "on-primary-fixed-variant": "#7e2c00",
+                      "tertiary-fixed-dim": "#dac2b4",
+                      "surface-variant": "#f1dfd4",
+                      "secondary-fixed-dim": "#e3c282",
+                      "on-primary-container": "#fffbff",
+                      "on-secondary-fixed-variant": "#5a430e",
+                      "primary-fixed-dim": "#ffb597",
+                      "on-secondary": "#ffffff",
+                      "surface-dim": "#e9d7cb",
+                      "surface-bright": "#fff8f5",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-surface": "#392e27",
+                      "tertiary-container": "#847165"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Noto Serif"],
+                      "display": ["Playfair Display"],
+                      "body": ["Manrope"],
+                      "label": ["Manrope"]
+              }
+            },
+          },
+        }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.glass-nav {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px)
+    }
+.grain-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAJhlJlepo2sSn-Q57z_3hagN2GyZKQ2qTWeFkK4rFdj7AF56OOAt1xZX1ieAb_i90VptZtRgrBIm6XrdBGX6jaNvaUPTCUwMzYz1VrZyJfOkGwnEjvAFveqe6cjwZfb_tO9bwwLhEX41C1FGmlcWwxxm7TzcJFhRPbYMMm904LhO_zyq2sB-HnrjBWw8B1kb8rs3zV-NuT_Oe_U5sAID_i8bg-vryxw487w9O1BqcbXkuoi9psn3ApaD2auZW8HDfSX1ccdpsyIyA)
+    }
+.asymmetric-image {
+    clip-path: polygon(0 0, 100% 5%, 95% 100%, 5% 95%)
+    }</style>
+</head>
+<body class="bg-background text-on-background font-body antialiased overflow-x-hidden">
+<!-- 1. SMART STICKY NAVBAR -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-900/80 backdrop-blur-md transition-all duration-500">
+<div class="flex justify-between items-center px-6 md:px-10 py-6 w-full max-w-screen-2xl mx-auto">
+<span class="text-2xl font-headline italic text-orange-900 dark:text-orange-200 tracking-widest">L'ESSENCE</span>
+<div class="hidden md:flex gap-10">
+<a class="text-orange-900 dark:text-white border-b border-orange-800/30 pb-1 font-label tracking-tight uppercase text-sm" href="#">The Menu</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-orange-900 dark:hover:text-white transition-colors duration-300 font-label tracking-tight uppercase text-sm" href="#">Our Story</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-orange-900 dark:hover:text-white transition-colors duration-300 font-label tracking-tight uppercase text-sm" href="#">Reservations</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-orange-900 dark:hover:text-white transition-colors duration-300 font-label tracking-tight uppercase text-sm" href="#">Press</a>
+</div>
+<a class="bg-primary text-on-primary px-8 py-3 rounded-xl font-label uppercase tracking-widest text-xs hover:bg-primary-container transition-all active:scale-95 duration-200" href="#reservasi">
+                Book a Table
+            </a>
+</div>
+</nav>
+<!-- 2. HERO SECTION -->
+<section class="relative pt-32 pb-20 px-6 md:px-12 min-h-[921px] flex items-center overflow-hidden">
+<div class="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7 z-10">
+<span class="text-primary font-label uppercase tracking-[0.3em] text-sm mb-6 block">Savour the moment</span>
+<h1 class="text-6xl md:text-8xl font-display font-bold leading-tight tracking-tight text-on-background mb-8">
+                    TASTE THE <br/><span class="italic text-primary">CRAFT</span>
+</h1>
+<p class="text-lg md:text-xl text-on-surface-variant leading-relaxed max-w-xl mb-12 font-headline italic">
+                    Sebuah simfoni rasa yang diracik dengan presisi, memadukan teknik artisanal dengan bahan organik terbaik untuk pengalaman kuliner yang tak terlupakan.
+                </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button class="bg-primary text-on-primary px-10 py-5 rounded-xl font-label font-bold uppercase tracking-widest text-sm shadow-xl shadow-primary/20 hover:translate-y-[-4px] transition-all">
+                        Reservasi Sekarang
+                    </button>
+<button class="bg-transparent border-b-2 border-primary text-primary px-4 py-5 font-label font-bold uppercase tracking-widest text-sm hover:text-primary-container hover:border-primary-container transition-all">
+                        Lihat Menu
+                    </button>
+</div>
+</div>
+<div class="md:col-span-5 relative">
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-[2s]" data-alt="ultra close-up of a gourmet plated steak with vibrant microgreens, artistic jus drizzle, and soft moody restaurant lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7_kXmPoS9uloUI5TsK4pxqu8tf09uwlndvp4_-Zkv7Ji-CR5CGUjtLfTxXOq3FY2f4TSEqzFhKiP0nJa8B3ZTzuOBrtGdPM4UaLG9q4OIxO_t0KKR-q_OStpifwKHv0j0Mvv7kII2mv1rbzDPvuixKuUpU9bRPtLBwTod3cJQxlHNI_KyhbVDk-Ti1OqMWrmimvxHUmO1-gCSnm72BkItqymuo5Pb8mFYy-jGs_VGFfmq1raveonthnF4yXtvOWlUjnSORnPQZFs"/>
+</div>
+<!-- Badges -->
+<div class="absolute -top-6 -left-6 bg-surface-container-lowest p-6 rounded-lg shadow-xl flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<div>
+<p class="text-xl font-bold leading-none">4.9</p>
+<p class="text-xs text-stone-500 uppercase tracking-tighter">Rating</p>
+</div>
+</div>
+<div class="absolute -bottom-8 right-10 bg-primary text-on-primary px-8 py-4 rounded-full shadow-2xl rotate-3">
+<span class="font-label uppercase tracking-widest text-xs font-bold">Best Seller 2024</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. TRUST STRIP -->
+<div class="bg-surface-container-low py-10 overflow-hidden border-y border-outline-variant/10">
+<div class="flex whitespace-nowrap animate-infinite-scroll space-x-12 px-4 justify-center items-center opacity-70">
+<div class="flex items-center gap-4 px-8 border-r border-outline-variant/30">
+<span class="material-symbols-outlined text-primary">verified</span>
+<span class="font-label uppercase tracking-[0.2em] text-xs font-bold text-on-surface">4.9 (1.200+ reviews)</span>
+</div>
+<div class="flex items-center gap-4 px-8 border-r border-outline-variant/30">
+<span class="material-symbols-outlined text-primary">history_edu</span>
+<span class="font-label uppercase tracking-[0.2em] text-xs font-bold text-on-surface">Sejak 2015</span>
+</div>
+<div class="flex items-center gap-4 px-8 border-r border-outline-variant/30">
+<span class="material-symbols-outlined text-primary">skillet</span>
+<span class="font-label uppercase tracking-[0.2em] text-xs font-bold text-on-surface">Chef berpengalaman</span>
+</div>
+<div class="flex items-center gap-4 px-8">
+<span class="material-symbols-outlined text-primary">eco</span>
+<span class="font-label uppercase tracking-[0.2em] text-xs font-bold text-on-surface">Fresh ingredients daily</span>
+</div>
+</div>
+</div>
+<!-- 4. FEATURED MENU -->
+<section class="py-32 px-6">
+<div class="max-w-screen-2xl mx-auto">
+<div class="flex justify-between items-end mb-20">
+<div class="max-w-2xl">
+<h2 class="text-5xl font-display font-bold mb-6">Pilihan Musim Ini</h2>
+<p class="text-on-surface-variant font-headline italic text-lg">Setiap hidangan adalah narasi dari hasil bumi lokal yang dikurasi secara personal.</p>
+</div>
+<button class="hidden md:block text-primary font-label uppercase tracking-widest text-xs font-bold border-b border-primary pb-2">Jelajahi Menu Lengkap</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Card 1 -->
+<div class="group">
+<div class="overflow-hidden rounded-lg mb-8 relative aspect-[3/4]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="pan-seared scallops served on a bed of citrus risotto with edible flowers and foam, artistic food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1_pmTrrCXwrwBmE9NTRAJxai6LLKUUGQ1kvD5kdUOWDQ-gGq2v6NJN4W5eoI16EwZlrBTqXevQFgih4PiQel2AeWgbwQrcqbAohkEuSvvUAd589tqb_V5PNln5RqPRO2outc3A1UkhqOIY1WhAoNgbIhwEeErSvBiePIQGdmbmGCaf9xyZ5sxyFtzPr2-7qbNcudz0aUadQvT_1gi8iDCghfA8s52TxxIkSM3yBQgiV2OaKAmOIfc8eJHV0A07BKm3sa2kJEo8XA"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<button class="bg-surface-container-lowest text-primary p-4 rounded-full translate-y-4 group-hover:translate-y-0 transition-transform">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="text-2xl font-headline font-semibold">The Oceanic Pearl</h3>
+<span class="text-secondary font-bold">Rp 245k</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Scallops Hokkaido, citrus emulsion, microgreens, smoked oil.</p>
+<button class="w-full py-4 bg-surface-container-high rounded-xl text-primary font-label uppercase tracking-widest text-xs font-bold hover:bg-primary hover:text-on-primary transition-all">Pesan</button>
+</div>
+<!-- Card 2 -->
+<div class="group">
+<div class="overflow-hidden rounded-lg mb-8 relative aspect-[3/4]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="premium wagyu beef tartare with quail egg yolk, sourdough crisps, and herb oil, elegant fine dining plating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO4RZKX9iRkTBoRTEkCv5RTdGSm60syFDTsYUUgzaUUqOx8X6XcTxkNSsVoWvSMMJLymVsz6CWC1OQJ5KcjQJubScuV3BRWkrrCgpHZAw2cBuO7lFd2iPvO-GtQv_xHkcu3y3isXmBoOi569SMekJC_h-ZOpKgrMhamsvrYEK_OT74JZjFzG-gZmqDmN_znpqLhId5UYJHZrNnJl4P1e0UbRLctsMqx-w_3T6jsBQjYtHg5TCoA0kB2nlAbkJ1sVPqS6tLpPwC4iM"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<button class="bg-surface-container-lowest text-primary p-4 rounded-full translate-y-4 group-hover:translate-y-0 transition-transform">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="text-2xl font-headline font-semibold">Earth’s Gold Wagyu</h3>
+<span class="text-secondary font-bold">Rp 890k</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">A5 Miyazaki, truffle soil, cured yolk, heritage carrots.</p>
+<button class="w-full py-4 bg-surface-container-high rounded-xl text-primary font-label uppercase tracking-widest text-xs font-bold hover:bg-primary hover:text-on-primary transition-all">Pesan</button>
+</div>
+<!-- Card 3 -->
+<div class="group">
+<div class="overflow-hidden rounded-lg mb-8 relative aspect-[3/4]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="deconstructed chocolate fondant with raspberry gel, gold leaf, and vanilla bean gelato, luxurious dessert photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdMv73STN0cKoHPOlKp7mKppPPwjXDnv9hseGODjzhliuO-jy4u5GhE5RU_g0MBWf5FAnVqpupjnzjRfShCpzs0URa3KlifDNDILCgy5U078742G-D3k_AJ1_VlMR0V27NJXtvj0GrgqHiwV7vRvonLeLdnZY3cPRYmQOwhVTCg_QPtCsnM0unU61jqM0BlkJcgv9mJY6x0Q_mEk4IQxE8q9G5XirYluB0-1Ch0MpHfgwgsUeqA5eUzk5tuHNpFozxQUN-sqauQI4"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<button class="bg-surface-container-lowest text-primary p-4 rounded-full translate-y-4 group-hover:translate-y-0 transition-transform">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="text-2xl font-headline font-semibold">Midnight Silk</h3>
+<span class="text-secondary font-bold">Rp 125k</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">70% dark chocolate mousse, hazelnut crunch, salted caramel.</p>
+<button class="w-full py-4 bg-surface-container-high rounded-xl text-primary font-label uppercase tracking-widest text-xs font-bold hover:bg-primary hover:text-on-primary transition-all">Pesan</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SIGNATURE EXPERIENCE -->
+<section class="py-32 bg-surface-container-low overflow-hidden">
+<div class="max-w-screen-2xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative order-2 lg:order-1">
+<div class="w-4/5 aspect-square rounded-lg overflow-hidden shadow-2xl relative z-10 asymmetric-image">
+<img class="w-full h-full object-cover" data-alt="warm inviting restaurant interior with wooden tables, soft ambient candlelight, and elegant wine glasses" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRf60pvm097XaVJIUoEOOyJt_Sf_kGpjjvXy23NR71XRk85tLIAk7HelGX_XDxX3ABu8MjD6xFO-9oRFFVSxM6ioEqi6e3GuYW6mB9LOLsUgOKdmJ1DZP3keheUTSzuJvl50kVcedVWL8wIeuOP6f5vpgva92ziOz9w8vjudmK9hrkFcdrodqc-7M0mhO8a7RDPM-7-4V5XHxluDYqyYHFe5oJA7VTXD_DH18i2jidRHioDMBqIWeAOI7UkBCnlNqxiyHHsVmcmYw"/>
+</div>
+<div class="absolute top-1/4 -right-10 w-3/5 aspect-square rounded-lg overflow-hidden shadow-2xl z-20 border-8 border-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="chef hands carefully arranging garnishes on a plate with surgical tweezers in a high-end kitchen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCes6ICiJi4GBXkkmnNddHWdtZu6yaTSwUY_sYRA6DSCGu1dHIbJ48gFlcc-YV3nzwOck9TeXe1r7XQMwpmSTYInqMWvKql75tpyUQTe50zbenUhgl-kxuzRPQ5ivVyE8_97VS8x65mRM2-ZcXIv53z6wFT05YAeSGJnGZ0hBQlhob_PIzMy6nkksV_i8oUcyMcRJyMJfIxqDecXa1MPYl0oy5IhDr1R43ESUvp60LlNeaQ8u2DcOxcFhb6NeJzho3jAzo3vBW5Uds"/>
+</div>
+<div class="absolute -bottom-10 left-10 p-10 bg-inverse-surface text-white rounded-lg z-30 shadow-2xl max-w-xs">
+<span class="material-symbols-outlined text-4xl mb-4 text-primary-fixed">format_quote</span>
+<p class="italic font-headline text-lg mb-4">"Makan bukan hanya soal rasa, tapi soal memori yang tercipta."</p>
+<p class="font-label text-xs tracking-widest opacity-60">— Executive Chef Julian</p>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-5xl md:text-7xl font-display font-bold leading-tight mb-10">THE ART OF <br/><span class="text-primary italic">HOSPITALITY</span></h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="h-12 w-12 shrink-0 flex items-center justify-center rounded-full bg-surface-container text-primary font-bold">01</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-2">Curated Ambience</h4>
+<p class="text-on-surface-variant leading-relaxed">Interior yang dirancang untuk kenyamanan maksimal, menggabungkan estetika modern dengan kehangatan kayu alami.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="h-12 w-12 shrink-0 flex items-center justify-center rounded-full bg-surface-container text-primary font-bold">02</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-2">Personalized Service</h4>
+<p class="text-on-surface-variant leading-relaxed">Tim pramusi kami dilatih untuk memahami preferensi Anda bahkan sebelum Anda mengucapkannya.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="h-12 w-12 shrink-0 flex items-center justify-center rounded-full bg-surface-container text-primary font-bold">03</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-2">Sensory Journey</h4>
+<p class="text-on-surface-variant leading-relaxed">Dari tekstur peralatan makan hingga alunan musik, setiap detail adalah bagian dari narasi kami.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. WHY US -->
+<section class="py-32 px-6">
+<div class="max-w-screen-2xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+<div class="text-center group">
+<div class="w-20 h-20 mx-auto bg-surface-container-high rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-3xl text-primary group-hover:text-on-primary">local_cafe</span>
+</div>
+<h5 class="font-headline font-bold mb-2">Premium Ingredients</h5>
+<p class="text-xs text-on-surface-variant px-4">Hanya menggunakan bahan organik tersertifikasi.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 mx-auto bg-surface-container-high rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-3xl text-primary group-hover:text-on-primary">chef_hat</span>
+</div>
+<h5 class="font-headline font-bold mb-2">Expert Chef</h5>
+<p class="text-xs text-on-surface-variant px-4">Dikurasi oleh Chef berbintang Michelin.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 mx-auto bg-surface-container-high rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-3xl text-primary group-hover:text-on-primary">chair</span>
+</div>
+<h5 class="font-headline font-bold mb-2">Cozy Ambience</h5>
+<p class="text-xs text-on-surface-variant px-4">Suasana intim untuk momen berharga.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 mx-auto bg-surface-container-high rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-3xl text-primary group-hover:text-on-primary">bolt</span>
+</div>
+<h5 class="font-headline font-bold mb-2">Fast Service</h5>
+<p class="text-xs text-on-surface-variant px-4">Pelayanan sigap tanpa mengurangi kualitas.</p>
+</div>
+</div>
+</section>
+<!-- 7. TESTIMONIAL SLIDER -->
+<section class="py-32 bg-stone-100 overflow-hidden">
+<div class="max-w-screen-2xl mx-auto px-6">
+<h2 class="text-4xl font-display font-bold text-center mb-20 uppercase tracking-widest">Suara Tamu Kami</h2>
+<div class="flex flex-nowrap gap-8 animate-[scroll_40s_linear_infinite] hover:[animation-play-state:paused]">
+<!-- Duplicate for seamless scroll -->
+<div class="min-w-[400px] bg-white p-10 rounded-lg shadow-sm border border-outline-variant/20">
+<div class="flex text-secondary mb-6"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span></div>
+<p class="text-lg font-headline italic mb-8">"Pengalaman makan terbaik di Jakarta. Steak-nya benar-benar meleleh di mulut."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-stone-200"></div>
+<div>
+<p class="font-bold">Andien Kusuma</p>
+<p class="text-xs opacity-50 uppercase tracking-tighter">Food Enthusiast</p>
+</div>
+</div>
+</div>
+<div class="min-w-[400px] bg-white p-10 rounded-lg shadow-sm border border-outline-variant/20">
+<div class="flex text-secondary mb-6"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span></div>
+<p class="text-lg font-headline italic mb-8">"Suasananya sangat romantis, cocok untuk merayakan anniversary kami. Pelayanan 10/10."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-stone-200"></div>
+<div>
+<p class="font-bold">Bagas Pratama</p>
+<p class="text-xs opacity-50 uppercase tracking-tighter">Corporate Lawyer</p>
+</div>
+</div>
+</div>
+<div class="min-w-[400px] bg-white p-10 rounded-lg shadow-sm border border-outline-variant/20">
+<div class="flex text-secondary mb-6"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">star</span></div>
+<p class="text-lg font-headline italic mb-8">"Setiap menu penutup adalah karya seni. Pasti akan kembali lagi!"</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-stone-200"></div>
+<div>
+<p class="font-bold">Clara Shinta</p>
+<p class="text-xs opacity-50 uppercase tracking-tighter">Art Director</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. PROMO SECTION -->
+<section class="py-32 bg-on-background relative overflow-hidden">
+<div class="grain-overlay absolute inset-0 opacity-10 pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<span class="text-primary-fixed-dim font-label uppercase tracking-[0.4em] text-xs mb-8 block">Exclusive Offer</span>
+<h2 class="text-5xl md:text-7xl font-display font-bold text-white mb-8">Weekend <br/><span class="text-primary">Special 20% Off</span></h2>
+<p class="text-primary-fixed opacity-70 mb-12 text-lg">Hanya untuk 10 reservasi pertama setiap hari Sabtu &amp; Minggu. Jangan lewatkan kesempatan istimewa ini.</p>
+<button class="bg-primary text-on-primary px-12 py-5 rounded-full font-label font-bold uppercase tracking-[0.2em] text-sm hover:scale-105 transition-transform shadow-[0_0_40px_rgba(157,62,13,0.4)]">
+                Reservasi Sekarang
+            </button>
+</div>
+</section>
+<!-- 9. LOCATION + CTA -->
+<section class="py-32 px-6">
+<div class="max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="rounded-lg overflow-hidden h-[500px] shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
+<img alt="Restaurant Location Map" class="w-full h-full object-cover" data-location="Jakarta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZwJf5jd8aNAIsEyl0oYrladXrG4oxJTSIAbucyFLVF948NOKWhIdqT3uVrMwbz1UYn67B6fv1eWyzp3NDz4X6ZRCSf2cSazwRt6EmQ3S5a4--ON0xcQH009GNCqv_Kk6authUNxa7ajd_zI3cZkYZKXOJ6_a9fKilCXWPAfApVziwiHJEnxyUyerqF3FIlyYLAbmA8S1LQjTTOKNWNqCBEhi81K2EQvA5L6FVrHeUw8BHXd53eXbvC4M2DBm0yHuMWmq7YswfpAQ"/>
+</div>
+<div>
+<h2 class="text-5xl font-display font-bold mb-8">Kunjungi Kami</h2>
+<div class="space-y-6 mb-12">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<div>
+<p class="font-headline font-bold text-xl">L'ESSENCE CULINAIRE</p>
+<p class="text-on-surface-variant">Jl. Senopati No. 88, Kebayoran Baru, Jakarta Selatan</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">schedule</span>
+<div>
+<p class="font-headline font-bold text-xl">Jam Operasional</p>
+<p class="text-on-surface-variant">Senin - Minggu | 11:00 AM - 11:00 PM</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="flex items-center justify-center gap-3 bg-on-background text-white px-8 py-5 rounded-xl font-label uppercase tracking-widest text-xs hover:bg-stone-800 transition-all">
+<span class="material-symbols-outlined">map</span>
+                            Buka di Google Maps
+                        </button>
+<button class="flex items-center justify-center gap-3 bg-green-600 text-white px-8 py-5 rounded-xl font-label uppercase tracking-widest text-xs hover:bg-green-700 transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Chat via WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. FOOTER -->
+<footer class="bg-stone-900 text-stone-300 py-24">
+<div class="flex flex-col items-center text-center space-y-12 px-4 w-full max-w-screen-2xl mx-auto">
+<span class="font-headline italic text-white text-5xl mb-8 tracking-widest">L'ESSENCE</span>
+<div class="flex flex-wrap justify-center gap-10">
+<a class="text-stone-500 hover:text-white transition-colors font-label text-[10px] tracking-[0.2em] uppercase" href="#">Privacy</a>
+<a class="text-stone-500 hover:text-white transition-colors font-label text-[10px] tracking-[0.2em] uppercase" href="#">Accessibility</a>
+<a class="text-stone-500 hover:text-white transition-colors font-label text-[10px] tracking-[0.2em] uppercase" href="#">Careers</a>
+<a class="text-stone-500 hover:text-white transition-colors font-label text-[10px] tracking-[0.2em] uppercase" href="#">Locations</a>
+</div>
+<div class="flex gap-8">
+<a class="w-12 h-12 rounded-full border border-stone-800 flex items-center justify-center hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">photo_camera</span>
+</a>
+<a class="w-12 h-12 rounded-full border border-stone-800 flex items-center justify-center hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">chat</span>
+</a>
+<a class="w-12 h-12 rounded-full border border-stone-800 flex items-center justify-center hover:border-primary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">restaurant_menu</span>
+</a>
+</div>
+<p class="font-label text-[10px] tracking-[0.2em] uppercase text-stone-600">
+                © 2024 L'ESSENCE CULINAIRE. ALL RIGHTS RESERVED.
+            </p>
+</div>
+</footer>
+<!-- MOBILE STICKY CALL TO ACTION -->
+<div class="fixed bottom-0 left-0 w-full flex items-center justify-center md:hidden z-50">
+<div class="bg-orange-900/95 backdrop-blur-xl w-full py-5 flex flex-row items-center justify-center gap-4 text-white shadow-2xl active:bg-orange-800 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined">calendar_month</span>
+<span class="font-label font-bold uppercase tracking-widest text-xs">Reserve Now</span>
+</div>
+</div>
+<!-- FLOATING WHATSAPP BUTTON (DESKTOP) -->
+<div class="fixed bottom-10 right-10 z-40 hidden md:block group">
+<div class="absolute bottom-full right-0 mb-4 scale-0 group-hover:scale-100 transition-transform origin-bottom-right bg-white p-4 rounded-lg shadow-xl min-w-[200px]">
+<p class="font-headline font-bold text-orange-900">Concierge</p>
+<p class="text-xs text-stone-500 mb-3">Available 10am - 10pm</p>
+<button class="w-full py-2 bg-stone-100 rounded text-xs font-bold uppercase tracking-tighter">Chat via WhatsApp</button>
+</div>
+<button class="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform active:scale-95">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+</button>
+</div>
+<style>
+        @keyframes infinite-scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        .animate-infinite-scroll {
+            animation: infinite-scroll 40s linear infinite;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</body></html>
